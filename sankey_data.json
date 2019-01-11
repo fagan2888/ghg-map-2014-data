@@ -130,6 +130,81 @@
           "Emissions^CH4.CH4"
         ]
       ]
+    ],
+    "groups": [
+      {
+        "title": "Service",
+        "nodes": [
+          "FinalService^Mobility",
+          "FinalService^Freight",
+          "FinalService^Warmth",
+          "FinalService^Other goods & services",
+          "FinalService^Construction",
+          "FinalService^Food",
+          "FinalService^Waste"
+        ]
+      },
+      {
+        "title": "Sector",
+        "nodes": [
+          "Sector^Transport",
+          "Sector^Buildings",
+          "Sector^Industry",
+          "Sector^Other",
+          "Sector^Agriculture",
+          "Sector^Waste"
+        ]
+      },
+      {
+        "title": "Equipment",
+        "nodes": [
+          "Equipment^Car",
+          "Equipment^Truck",
+          "Equipment^Other transport",
+          "Equipment^Appliances",
+          "Equipment^Heated/cooled",
+          "Equipment^Other building",
+          "Equipment^Machines",
+          "Equipment^Furnaces & boilers"
+        ]
+      },
+      {
+        "title": "Device",
+        "nodes": [
+          "Device^Engines & motors",
+          "Device^Other",
+          "Device^Burners",
+          "Non_energy_process^Process"
+        ]
+      },
+      {
+        "title": "Final Energy",
+        "nodes": [
+          "FinalEnergy^Oil fuels",
+          "FinalEnergy^Fuel production",
+          "FinalEnergy^Electricity",
+          "FinalEnergy^Natural gas",
+          "FinalEnergy^Coal",
+          "FinalEnergy^Biomass"
+        ]
+      },
+      {
+        "title": "Fuel",
+        "nodes": [
+          "Fuel^Oil fuels",
+          "Fuel^Natural gas",
+          "Fuel^Coal"
+        ]
+      },
+      {
+        "title": "Emissions",
+        "nodes": [
+          "Emissions^CO2",
+          "Emissions^N2O",
+          "Emissions^F-GAS",
+          "Emissions^CH4"
+        ]
+      }
     ]
   },
   "links": [
